@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Badge from '../components/badges/badges'
+import Badge from '../components/badges/badges';
+import Button from '../components/button/button';
 
 class ExpenseItem extends Component {
 	constructor(props)	{
@@ -30,7 +31,7 @@ class ExpenseItem extends Component {
 					<h4>IWD</h4>
 					<label>Reussel 200 value ETF</label>
 				</div>
-				
+
 				<div>
 					<Button>Details</Button>
 				</div>

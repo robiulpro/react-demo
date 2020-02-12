@@ -15,7 +15,7 @@ class Button extends Component {
 
         return(
             <>
-                <Button>[title]</Button>
+                <div>{'button name'}</div>
             </>
         );
     }        
