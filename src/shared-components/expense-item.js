@@ -35,8 +35,7 @@ class ExpenseItem extends Component {
 				<Button title={'Details'} buttonClass={"buttonSecondary"} />
 				</div>
 				<div className="item-col">
-					<h5>Fee: 10bps mgmnt</h5>
-					<label>50% Alpha Share</label>
+					<h5>Fee: {this.props.data.FEE}</h5>
 				</div>
 				<div className="item-col">
 					<Button title={'Subscribe'} buttonClass={"buttonPrimary"} />
