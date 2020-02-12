@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 class ExpenseItem extends Component {
 	constructor(props)	{
-
+		super(props);
 	}
 
-	rendor() {
+	render() {
 		return (
 			<></>
 		)

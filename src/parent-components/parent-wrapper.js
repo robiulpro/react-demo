@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 
 class ParentWrapper extends Component {
 	constructor(props)	{
-
+		super(props);
 	}
 
-	rendor() {
+	render() {
 		return (
-			<></>
+			<div>TEST</div>
 		)
 	}
 }
