@@ -23,8 +23,32 @@ h5 {
 
 .header {
     display: flex;
-    
+
     .headerItem {
         padding: 0 5px;
     }    
+}
+
+.col {
+    &1 {
+        width: 25%;
+    }
+    &2 {
+        width: 15%;
+    }
+    &3 {
+        width: 15%;
+    }
+    &4 {
+        width: 10%;
+    }
+    &5 {
+        width: 8%;
+    }
+    &6 {
+        width: 8%;
+    }
+    &7 {
+        width: 8%;
+    }
 }
