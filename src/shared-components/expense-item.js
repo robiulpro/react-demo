@@ -11,7 +11,7 @@ class ExpenseItem extends Component {
 		return (
 			<div className="cardWrapper">
 				<div className="item-col">
-					<label>AI</label>
+					<h3>AI</h3>
 					{/* <img src=> */}
 				</div>
 				<div className="item-col">
@@ -32,14 +32,14 @@ class ExpenseItem extends Component {
 					<label>Reussel 200 value ETF</label>
 				</div>
 				<div className="item-col">
-					<Button title={'Details'} />
+				<Button title={'Details'} buttonClass={"buttonSecondary"} />
 				</div>
 				<div className="item-col">
 					<h5>Fee: 10bps mgmnt</h5>
 					<label>50% Alpha Share</label>
 				</div>
 				<div className="item-col">
-					<Button title={'Subscribe'} />
+					<Button title={'Subscribe'} buttonClass={"buttonPrimary"} />
 					<label>370 Subscribers</label>
 				</div>
 			</div>
