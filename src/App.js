@@ -2,8 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Route } from 'react-router-dom';
-import Header from 'shared-components/header';
-import ParentWrapper from 'parent-components';
+import Header from './shared-components/header';
+import ParentWrapper from './parent-components/parent-wrapper';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Route path="/">
         <ParentWrapper />
-      <Route>
+      </Route>
     </div>
   );
 }
