@@ -20,6 +20,7 @@ class WapperHeader extends Component {
 						<div className="headerItem">Quant Factors</div>
 						<div className="headerItem">Global Factors</div>
 					</div>
+					<br />
 				</div>
 			</>
 		)
