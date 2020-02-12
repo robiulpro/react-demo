@@ -40,7 +40,7 @@ class ExpenseItem extends Component {
 				</div>
 				<div className="item-col">
 					<Button title={'Subscribe'} buttonClass={"buttonPrimary"} />
-					<label>370 Subscribers</label>
+					<label>{this.props.data.SUBSCRIBERS} Subscribers</label>
 				</div>
 			</div>
 		)
