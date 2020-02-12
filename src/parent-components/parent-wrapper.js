@@ -1,25 +1,36 @@
 import React, { Component } from 'react';
-import Badge from '../components/badges/badges'
+import { getStrategyData } from "../utils/APIService";
+import WapperHeader from '../shared-components/wrapper-header';
+import ExpenseItem from '../shared-components/expense-item';
 
 class ParentWrapper extends Component {
 	constructor(props)	{
 		super(props);
+    this.state = {
+      data : []
+    }
+	}
+
+	componentDidMount() {
+		getStrategyData()
+	    .then(response => {
+	      console.log("succ================getStrategyData");
+	      console.log(response);
+        this.setState({data : response})
+	    })
+	    .catch(error => {
+	      console.log("err================getStrategyData");
+	      console.log(error);
+	    });
 	}
 
 	render() {
 		return (
 			<>
-				<div className="cardWrapper">
-					<div>
-						<label>All</label>
-						{/* <img src=> */}
-					</div>
-					<div>
-						<h3 className="title">Long Only</h3>
-						<h4 className="subTitle">Monthly AI Forcast</h4>
-						
-					</div>
-				</div>
+				<WapperHeader />
+				{this.state.data.map((strategy, index) => (
+				<ExpenseItem key={index} data={strategy}/>
+				))}
 			</>
 		)
 	}
