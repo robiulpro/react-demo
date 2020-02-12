@@ -5,17 +5,12 @@ class Button extends Component {
         super(props);
     }
 
-    state = {
-        title: 'sdsd',
-        primary: 'buttonPrimary'        
-    }
-
     render(){
         const { title } = this.props;
 
         return(
             <>
-                <div>{'button name'}</div>
+                <div>{title}</div>
             </>
         );
     }        

@@ -29,7 +29,7 @@ class ParentWrapper extends Component {
 			<>
 				<WapperHeader />
 				{this.state.data.map((strategy, index) => (
-				<ExpenseItem key={index} data={strategy}/>
+					<ExpenseItem key={index} data={strategy}/>
 				))}
 			</>
 		)
