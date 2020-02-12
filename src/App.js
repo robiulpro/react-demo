@@ -4,6 +4,7 @@ import './App.css';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 import Header from './shared-components/header';
 import ParentWrapper from './parent-components/parent-wrapper';
+import './assets/scss/app.scss';
 
 function App() {
   return (
