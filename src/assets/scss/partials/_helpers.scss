@@ -20,3 +20,11 @@ h4 {
 h5 {
     margin: 0;
 }
+
+.header {
+    display: flex;
+    
+    .headerItem {
+        padding: 0 5px;
+    }    
+}
