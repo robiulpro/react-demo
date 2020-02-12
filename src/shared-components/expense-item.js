@@ -19,7 +19,18 @@ class ExpenseItem extends Component {
 					<span className="badge badge-grey"><span className="legends legends-orange"></span> value</span>					
 					<span className="badge badge-grey">value</span>					
 				</div>
+				<div>
+					<h3>+ 25.4<span>%</span></h3>
+				</div>
+				<div>
+					<h3>+ 7.6<span>%</span></h3>
+				</div>
 
+				<div className="bechmark">
+					<h4>IWD</h4>
+					<label>Reussel 200 value ETF</label>
+				</div>
+				
 				<div>
 					<Button>Details</Button>
 				</div>
