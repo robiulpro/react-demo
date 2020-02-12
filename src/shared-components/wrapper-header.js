@@ -10,8 +10,11 @@ class WapperHeader extends Component {
 			<>
 				<div className="header-wrapper">
 					<div>Explore Strategies</div>
+					<br/>
 					<div>Choose what you control and what decisions you want</div>
+					<br/>
 					<div>Investment Themes</div>
+					<br/>
 
 					<div className="header">
 						<div className="headerItem">All</div>
