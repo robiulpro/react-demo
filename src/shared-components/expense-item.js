@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Badge from '../components/badges/badges';
-import Button from '../components/button/button';
+import Badge from './badges/badges';
+import Button from './button/button';
 
 class ExpenseItem extends Component {
 	constructor(props)	{
