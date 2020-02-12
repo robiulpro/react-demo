@@ -52,3 +52,22 @@ h5 {
         width: 8%;
     }
 }
+
+.pageTitle {
+    margin: 0;
+}
+
+.pageSubTitle {
+    font-weight: 500;
+}
+.pageSubTitle2 {
+    font-weight: 600;
+}
+
+.haderWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px;
+}

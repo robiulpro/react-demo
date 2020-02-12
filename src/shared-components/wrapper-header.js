@@ -9,12 +9,9 @@ class WapperHeader extends Component {
 		return (
 			<>
 				<div className="header-wrapper">
-					<div>Explore Strategies</div>
-					<br/>
-					<div>Choose what you control and what decisions you want</div>
-					<br/>
-					<div>Investment Themes</div>
-					<br/>
+					<h1 className="pageTitle">Explore Strategies</h1>
+					<h4 className="pageSubTitle">Choose what you control and what decisions you want</h4>
+					<h5 className="pageSubTitle2">Investment Themes</h5>
 
 					<div className="header">
 						<div className="headerItem">All</div>
